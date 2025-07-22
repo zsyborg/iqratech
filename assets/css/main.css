@@ -360,6 +360,7 @@ li,
   --tp-cream-2: #CFC292;
   --tp-text-body: #2e2d2d;
   --tp-theme-green: #A0FF27;
+  --tp-theme-blue: #rgb(39, 115, 255)
   --tp-theme-pink: #EC6FD5;
   --tp-theme-yellow: #FFB701;
   --tp-border-1: #EAEBED;
@@ -2644,7 +2645,7 @@ input[type=color] {
   right: 0;
   bottom: 0;
   z-index: 1000;
-  background-color: var(--tp-theme-green);
+  background-color: var(--tp-theme-blue);
 }
 
 .preloader {
@@ -9845,7 +9846,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 
 .tp-copyright-style-6 .tp-copyright-big-text {
-  color: var(--tp-common-red);
+  color: var(--tp-common-blue);
 }
 .tp-copyright-style-6 .tp-copyright-left span {
   color: var(--tp-common-cream);
